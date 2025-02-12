@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ROSALES NATIONAL HIGH SCHOOL</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body background="Building2.jpg">
+
+<div class="container">
+  <h1>LOG IN HERE</h1>
+  <form action="/register" method="post">  <!--  Replace /register with your server-side script -->
+    <label for="Username">Username:</label>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <a href="FinalRNHSS.html">Log in</a>
+    <br>
+    <a href="Regisform1.html">Sign Up</a>
+  </form>
+</div>
+
+</body>
+</html>
